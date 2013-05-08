@@ -1,15 +1,36 @@
-body {
-	font-family: sans-serif;
+.wrap {
 	max-width: 1200px;
 	margin:0 auto;
 }
 
 ul {
 	list-style-type: none;
+	text-align: right;
+	margin: 20px 10px;
+	max-width: 100%;
+}
+
+li {
+	display: inline;
+}
+
+li:after {
+	color: grey;
+	padding: 3px;
+	content: "|";
+}
+
+li:last-child:after {
+	content: "";
 }
 
 a {
 	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: black;
 }
 
 img {
@@ -17,36 +38,22 @@ img {
 	height: auto;
 }
 
-.nav {
-	text-align: right;
-	margin: 20px 10px;
-	max-width: 100%
+h1 {
+	font-family: "Good Times", sans-serif;
 }
 
-.nav li {
-	display: inline;
+h6 {
+	font-family: "PT Sans", sans-serif;
+	font-style: italic;
+	font-size: 10px;
+	font-weight: normal;
+	margin: 7px auto;
 }
 
-.nav li:after {
-	color: grey;
-	padding: 3px;
-	content: "|";
+p {
+	font-family: "FF Tisa Web Pro", sans-serif;
 }
 
-.nav li:last-child:after {
-	content: "";
+span {
+	font-family: "Chaparral Pro", sans-serif;
 }
-
-.nav a{
-	color: grey;
-}
-
-.nav a:hover {
-	color: black;
-}
-
-.wrap {
-	width: 80%;
-	margin: 0 auto;
-}
-
