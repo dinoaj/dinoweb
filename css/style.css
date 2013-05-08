@@ -1,0 +1,45 @@
+body {
+	font-family: sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	width: 100%;
+	background-color: blue;
+	margin: 0 auto;
+}
+
+.nav {
+	position: relative;
+	float: right;
+	margin: 0 10px 10px;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav li:after {
+	color: grey;
+	padding: 3px;
+	content: "|";
+}
+
+.nav li:last-child:after {
+	content: "";
+}
+
+.nav a{
+	color: grey;
+}
+
+.nav a:hover {
+	color: black;
+}
