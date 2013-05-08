@@ -50,13 +50,3 @@ img {
 	margin: 0 auto;
 }
 
-.wrap img {
-	position: relative;
-	float:left;
-}
-
-article {
-	position: relative;
-	float: left;
-}
-
