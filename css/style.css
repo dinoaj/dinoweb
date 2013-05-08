@@ -1,5 +1,7 @@
 body {
 	font-family: sans-serif;
+	max-width: 1200px;
+	margin:0 auto;
 }
 
 ul {
@@ -10,16 +12,15 @@ a {
 	text-decoration: none;
 }
 
-.wrap {
-	width: 100%;
-	background-color: blue;
-	margin: 0 auto;
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 .nav {
-	position: relative;
-	float: right;
-	margin: 0 10px 10px;
+	text-align: right;
+	margin: 20px 10px;
+	max-width: 100%
 }
 
 .nav li {
@@ -43,3 +44,19 @@ a {
 .nav a:hover {
 	color: black;
 }
+
+.wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.wrap img {
+	position: relative;
+	float:left;
+}
+
+article {
+	position: relative;
+	float: left;
+}
+
