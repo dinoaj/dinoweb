@@ -8,6 +8,7 @@ ul {
 	text-align: right;
 	margin: 20px 10px;
 	max-width: 100%;
+	font-family: "Good Times", sans-serif;
 }
 
 li {
@@ -38,16 +39,12 @@ img {
 	height: auto;
 }
 
-h1 {
+h2 {
 	font-family: "Good Times", sans-serif;
 }
 
 h6 {
-	font-family: "PT Sans", sans-serif;
-	font-style: italic;
-	font-size: 10px;
-	font-weight: normal;
-	margin: 7px auto;
+	font: italic normal 1em "PT Sans", sans-serif;
 }
 
 p {
@@ -55,5 +52,5 @@ p {
 }
 
 span {
-	font-family: "Chaparral Pro", sans-serif;
+	font: italic bold 1em "Chaparral Pro", sans-serif;
 }
